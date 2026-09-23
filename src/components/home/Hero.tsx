@@ -29,17 +29,9 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
       {/* Background Matrix & Tech Grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_45%,#000_70%,transparent_100%)] pointer-events-none opacity-70" />
 
-      {/* Atmospheric Accent Orbs */}
-      <motion.div
-        animate={{ scale: [1, 1.1, 1], opacity: [0.35, 0.5, 0.35] }}
-        transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
-        className="absolute top-1/4 left-1/4 -translate-x-1/2 w-80 sm:w-96 h-80 sm:h-96 bg-purple-300/40 rounded-full blur-3xl pointer-events-none"
-      />
-      <motion.div
-        animate={{ scale: [1.1, 1, 1.1], opacity: [0.3, 0.45, 0.3] }}
-        transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-        className="absolute top-1/3 right-1/4 translate-x-1/2 w-80 sm:w-96 h-80 sm:h-96 bg-cyan-300/40 rounded-full blur-3xl pointer-events-none"
-      />
+      {/* Subtle Ambient Gradients */}
+      <div className="absolute top-1/4 left-1/4 -translate-x-1/2 w-80 sm:w-96 h-80 sm:h-96 bg-purple-200/25 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/3 right-1/4 translate-x-1/2 w-80 sm:w-96 h-80 sm:h-96 bg-cyan-200/25 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
-import { LoadingScreen } from './components/ui/LoadingScreen';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
 import { TeamPage } from './pages/TeamPage';
@@ -19,11 +18,6 @@ export default function App() {
     return window.location.pathname || '/';
   });
 
-  const [isLoading, setIsLoading] = useState<boolean>(() => {
-    // Show splash animation on first load
-    return !sessionStorage.getItem('aureon_loaded');
-  });
-
   // Handle browser back/forward buttons
   useEffect(() => {
     const handlePopState = () => {
@@ -32,11 +26,6 @@ export default function App() {
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
-
-  const handleLoadingComplete = () => {
-    sessionStorage.setItem('aureon_loaded', 'true');
-    setIsLoading(false);
-  };
 
   const navigate = (path: string) => {
     if (path.startsWith('#')) {
@@ -96,11 +85,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-900 flex flex-col selection:bg-indigo-500/20 selection:text-indigo-900">
-      {/* Initialization Loading Animation */}
-      <AnimatePresence>
-        {isLoading && <LoadingScreen onComplete={handleLoadingComplete} />}
-      </AnimatePresence>
-
       {/* Global Navbar */}
       <Navbar currentPath={currentPath} onNavigate={navigate} />
 
