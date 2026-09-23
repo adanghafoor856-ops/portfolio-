@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ShieldCheck, Terminal, Users, Sparkles, Code2, Cpu, Globe, Rocket, ArrowRight } from 'lucide-react';
+import { ShieldCheck, Terminal, Users, Sparkles, Code2, Cpu, Rocket, ArrowRight } from 'lucide-react';
 import { SectionHeading } from '../components/ui/SectionHeading';
 import { Button } from '../components/ui/Button';
 import { teamMembers } from '../data/team';

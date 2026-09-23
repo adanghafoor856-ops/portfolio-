@@ -45,7 +45,6 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 rounded-full text-xs font-mono font-bold bg-indigo-50 border border-indigo-200 text-indigo-700 mb-6 shadow-xs max-w-full flex-wrap"
             >
               <span className="relative flex h-2 w-2 shrink-0">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-500 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-600"></span>
               </span>
               <span className="font-extrabold tracking-wider truncate">AUREON TECHNOLOGIES</span>
@@ -211,12 +210,8 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 </div>
               </div>
 
-              {/* Floating Pill 1 - Web & React */}
-              <motion.div
-                animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-                className="absolute -top-3 sm:-top-5 left-1 sm:-left-4 rounded-xl px-3 sm:px-3.5 py-2 sm:py-2.5 flex items-center gap-2.5 sm:gap-3 border border-purple-200 bg-white/95 backdrop-blur-md shadow-lg shadow-purple-500/10"
-              >
+              {/* Tech Badge 1 - Web & React */}
+              <div className="absolute -top-3 sm:-top-5 left-1 sm:-left-4 rounded-xl px-3 sm:px-3.5 py-2 sm:py-2.5 flex items-center gap-2.5 sm:gap-3 border border-purple-200 bg-white/95 backdrop-blur-md shadow-lg shadow-purple-500/10">
                 <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-purple-50 text-purple-700 flex items-center justify-center border border-purple-200 shrink-0">
                   <Code className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                 </div>
@@ -224,14 +219,10 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                   <div className="text-[11px] sm:text-xs font-bold text-slate-900 leading-tight">Full Stack</div>
                   <div className="text-[9px] sm:text-[10px] text-purple-700 font-mono font-semibold">Next.js & React</div>
                 </div>
-              </motion.div>
+              </div>
 
-              {/* Floating Pill 2 - Backend & Node */}
-              <motion.div
-                animate={{ y: [0, 8, 0] }}
-                transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-                className="absolute -bottom-4 sm:-bottom-6 right-1 sm:-right-4 rounded-xl px-3 sm:px-3.5 py-2 sm:py-2.5 flex items-center gap-2.5 sm:gap-3 border border-blue-200 bg-white/95 backdrop-blur-md shadow-lg shadow-blue-500/10"
-              >
+              {/* Tech Badge 2 - Backend & Node */}
+              <div className="absolute -bottom-4 sm:-bottom-6 right-1 sm:-right-4 rounded-xl px-3 sm:px-3.5 py-2 sm:py-2.5 flex items-center gap-2.5 sm:gap-3 border border-blue-200 bg-white/95 backdrop-blur-md shadow-lg shadow-blue-500/10">
                 <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-blue-50 text-blue-700 flex items-center justify-center border border-blue-200 shrink-0">
                   <Cpu className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                 </div>
@@ -239,27 +230,19 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                   <div className="text-[11px] sm:text-xs font-bold text-slate-900 leading-tight">Backend Lead</div>
                   <div className="text-[9px] sm:text-[10px] text-blue-700 font-mono font-semibold">Node.js & APIs</div>
                 </div>
-              </motion.div>
+              </div>
 
-              {/* Floating Pill 3 - Mobile Flutter */}
-              <motion.div
-                animate={{ x: [0, -8, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
-                className="absolute top-1/2 -right-8 rounded-xl px-3 py-2 hidden sm:flex items-center gap-2.5 border border-emerald-200 bg-white/95 backdrop-blur-md shadow-lg shadow-emerald-500/10"
-              >
+              {/* Tech Badge 3 - Mobile Flutter */}
+              <div className="absolute top-1/2 -right-8 -translate-y-1/2 rounded-xl px-3 py-2 hidden sm:flex items-center gap-2.5 border border-emerald-200 bg-white/95 backdrop-blur-md shadow-lg shadow-emerald-500/10">
                 <Smartphone className="w-4 h-4 text-emerald-600" />
                 <span className="text-xs font-mono font-bold text-slate-800">Flutter • Mobile</span>
-              </motion.div>
+              </div>
 
-              {/* Floating Pill 4 - Blockchain */}
-              <motion.div
-                animate={{ x: [0, 8, 0] }}
-                transition={{ duration: 4.8, repeat: Infinity, ease: 'easeInOut', delay: 1.5 }}
-                className="absolute -bottom-4 left-4 rounded-xl px-3 py-2 hidden sm:flex items-center gap-2.5 border border-amber-200 bg-white/95 backdrop-blur-md shadow-lg shadow-amber-500/10"
-              >
+              {/* Tech Badge 4 - Blockchain */}
+              <div className="absolute -bottom-4 left-4 rounded-xl px-3 py-2 hidden sm:flex items-center gap-2.5 border border-amber-200 bg-white/95 backdrop-blur-md shadow-lg shadow-amber-500/10">
                 <Layers className="w-4 h-4 text-amber-600" />
                 <span className="text-xs font-mono font-bold text-slate-800">Solidity • Web3</span>
-              </motion.div>
+              </div>
             </motion.div>
           </div>
         </div>
