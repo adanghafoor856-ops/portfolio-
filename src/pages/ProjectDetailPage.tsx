@@ -151,7 +151,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({ slug, onNa
               <div className="p-2.5 rounded-xl bg-emerald-100 border border-emerald-200 text-emerald-700">
                 <ShieldCheck className="w-5 h-5" />
               </div>
-              <h2 className="text-xl font-bold text-slate-900">Vertex Technologies&apos; Solution</h2>
+              <h2 className="text-xl font-bold text-slate-900">Aureon Technologies&apos; Solution</h2>
             </div>
             <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
               {project.solution || 'Engineered a unified hybrid architecture with modular microservices, clean responsive UI design, and strict type-safe contracts across the entire stack.'}
@@ -221,7 +221,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({ slug, onNa
               MULTIDISCIPLINARY EXECUTION
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">
-              Vertex Technologies Member Contributions
+              Aureon Technologies Member Contributions
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 mt-1">
               Clear breakdown of individual roles and technical modules delivered for this project.
@@ -310,7 +310,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({ slug, onNa
             icon={<ArrowRight className="w-4 h-4" />}
             onClick={() => onNavigate('/contact')}
           >
-            Inquire About Custom Engineering with Vertex Technologies
+            Inquire About Custom Engineering with Aureon Technologies
           </Button>
         </div>
       </div>

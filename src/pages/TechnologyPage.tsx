@@ -41,7 +41,7 @@ export const TechnologyPage: React.FC<TechnologyPageProps> = ({ onNavigate }) =>
             transition={{ delay: 0.2 }}
             className="mt-5 text-slate-600 text-base sm:text-lg leading-relaxed"
           >
-            A comprehensive overview of the programming languages, frontend libraries, backend runtimes, database engines, mobile frameworks, and decentralized protocols powering Vertex Technologies&apos; digital solutions.
+            A comprehensive overview of the programming languages, frontend libraries, backend runtimes, database engines, mobile frameworks, and decentralized protocols powering Aureon Technologies&apos; digital solutions.
           </motion.p>
         </div>
 
@@ -60,7 +60,7 @@ export const TechnologyPage: React.FC<TechnologyPageProps> = ({ onNavigate }) =>
                 Zero Legacy Overhead. Built for Modern Workloads.
               </h2>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Vertex Technologies continuously evaluates emerging tools, ensuring every technology in our stack is mature, performant, community-backed, and optimized for rapid product delivery without sacrificing security.
+                Aureon Technologies continuously evaluates emerging tools, ensuring every technology in our stack is mature, performant, community-backed, and optimized for rapid product delivery without sacrificing security.
               </p>
             </div>
             <div className="flex justify-start lg:justify-end">

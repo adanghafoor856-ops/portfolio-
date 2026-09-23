@@ -74,7 +74,7 @@ export const TechnologyStack: React.FC<TechnologyStackProps> = ({
         <SectionHeading
           badge="TECH ARSENAL"
           title="Interactive Technology Stack"
-          subtitle="Battle-tested technologies, modern frameworks, and robust developer tools powering Vertex Technologies' digital infrastructure."
+          subtitle="Battle-tested technologies, modern frameworks, and robust developer tools powering Aureon Technologies' digital infrastructure."
         />
 
         {/* Filter Toolbar & Search */}

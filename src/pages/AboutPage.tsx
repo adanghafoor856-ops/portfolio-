@@ -64,7 +64,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
             transition={{ delay: 0.2 }}
             className="mt-5 text-slate-600 text-base sm:text-lg leading-relaxed"
           >
-            Vertex Technologies is a collaborative group of passionate software engineers with diverse technical expertise. We believe great software is built through strong collaboration, thoughtful problem-solving, and continuous learning.
+            Aureon Technologies is a collaborative group of passionate software engineers with diverse technical expertise. We believe great software is built through strong collaboration, thoughtful problem-solving, and continuous learning.
           </motion.p>
         </div>
 
@@ -85,7 +85,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                 Bridging Imaginative Concepts with Resilient Engineering
               </h2>
               <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                In a digital landscape filled with generic templates and fragile prototypes, Vertex Technologies was founded to provide end-to-end engineering excellence. We combine deep specializations across web, backend, mobile, and Web3 architectures into a single cohesive unit.
+                In a digital landscape filled with generic templates and fragile prototypes, Aureon Technologies was founded to provide end-to-end engineering excellence. We combine deep specializations across web, backend, mobile, and Web3 architectures into a single cohesive unit.
               </p>
               <p className="text-slate-600 text-sm leading-relaxed">
                 Whether partnering with early-stage startups to build their core platform or collaborating with established tech organizations to engineer scalable modules, we approach every challenge with craftsmanship and transparency.
@@ -131,7 +131,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
           <SectionHeading
             badge="OUR PRINCIPLES"
             title="How We Deliver Excellence"
-            subtitle="The fundamental tenets guiding every line of code written by Vertex Technologies engineers."
+            subtitle="The fundamental tenets guiding every line of code written by Aureon Technologies engineers."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
@@ -185,7 +185,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
             icon={<ArrowRight className="w-4 h-4" />}
             onClick={() => onNavigate('/contact')}
           >
-            Start a Project with Vertex Technologies
+            Start a Project with Aureon Technologies
           </Button>
         </div>
       </div>

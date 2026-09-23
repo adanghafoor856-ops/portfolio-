@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hero } from '../components/home/Hero';
+import { EarthOrbitHero } from '../components/home/EarthOrbitHero';
 import { About } from '../components/home/About';
 import { TeamPreview } from '../components/home/TeamPreview';
 import { Expertise } from '../components/home/Expertise';
@@ -17,7 +17,7 @@ interface HomePageProps {
 export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
   return (
     <div className="space-y-0">
-      <Hero onNavigate={onNavigate} />
+      <EarthOrbitHero onNavigate={onNavigate} />
       <About />
       <TeamPreview onNavigate={onNavigate} />
       <Expertise onNavigate={onNavigate} />

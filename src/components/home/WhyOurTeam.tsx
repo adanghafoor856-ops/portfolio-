@@ -41,7 +41,7 @@ export const WhyOurTeam: React.FC = () => {
         <SectionHeading
           badge="WHY CHOOSE OUR TEAM"
           title="Engineering Standards You Can Trust"
-          subtitle="Why software companies, startups, and forward-thinking teams partner with our team at Vertex Technologies for mission-critical software."
+          subtitle="Why software companies, startups, and forward-thinking teams partner with our team at Aureon Technologies for mission-critical software."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">

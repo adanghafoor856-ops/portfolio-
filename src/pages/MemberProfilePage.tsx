@@ -220,7 +220,7 @@ export const MemberProfilePage: React.FC<MemberProfilePageProps> = ({ slug, onNa
                 Team Role & Association
               </h3>
               <div className="text-sm font-bold text-slate-900 mb-1">{member.role}</div>
-              <div className="text-xs text-slate-500">Core Member of Vertex Technologies</div>
+              <div className="text-xs text-slate-500">Core Member of Aureon Technologies</div>
               <div className="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-600 space-y-2">
                 <div className="flex justify-between">
                   <span>GitHub Handle:</span>
@@ -350,7 +350,7 @@ export const MemberProfilePage: React.FC<MemberProfilePageProps> = ({ slug, onNa
               Interested in working with {member.name}?
             </h2>
             <p className="text-slate-600 text-sm leading-relaxed">
-              Reach out directly to discuss technical consulting, full stack architecture, mobile app builds, smart contracts, or comprehensive project development with Vertex Technologies.
+              Reach out directly to discuss technical consulting, full stack architecture, mobile app builds, smart contracts, or comprehensive project development with Aureon Technologies.
             </p>
 
             <div className="pt-4 flex flex-wrap items-center justify-center gap-3">
@@ -360,7 +360,7 @@ export const MemberProfilePage: React.FC<MemberProfilePageProps> = ({ slug, onNa
                 icon={<ArrowRight className="w-4 h-4" />}
                 onClick={() => onNavigate('/contact')}
               >
-                Contact Vertex Technologies
+                Contact Aureon Technologies
               </Button>
 
               <a

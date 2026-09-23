@@ -33,7 +33,7 @@ export const TeamPage: React.FC<TeamPageProps> = ({ onNavigate }) => {
           >
             Meet Our <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-indigo-600 to-cyan-600">
-              Vertex Technologies Team
+              Aureon Technologies Team
             </span>
           </motion.h1>
 
@@ -70,7 +70,7 @@ export const TeamPage: React.FC<TeamPageProps> = ({ onNavigate }) => {
                 How We Collaborate on Client & Startup Projects
               </h2>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                When you collaborate with our team at Vertex Technologies, you gain access to an integrated team structure. Whether you need a standalone mobile application, a hardened server-side microservice, an enterprise web application, or a decentralized smart contract system, our engineers sync daily to deliver seamless results.
+                When you collaborate with our team at Aureon Technologies, you gain access to an integrated team structure. Whether you need a standalone mobile application, a hardened server-side microservice, an enterprise web application, or a decentralized smart contract system, our engineers sync daily to deliver seamless results.
               </p>
             </div>
             <div className="flex justify-start lg:justify-end">

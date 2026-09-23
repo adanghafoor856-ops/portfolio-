@@ -18,11 +18,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-purple-600 to-cyan-500 flex items-center justify-center p-[1px] shadow-md shadow-indigo-500/20">
                 <div className="w-full h-full bg-white rounded-[10px] flex items-center justify-center font-mono font-bold text-indigo-700 text-base">
-                  V
+                  A
                 </div>
               </div>
               <span className="text-lg sm:text-xl font-bold tracking-wider text-slate-900 font-mono">
-                VERTEX TECHNOLOGIES
+                AUREON TECHNOLOGIES
               </span>
             </div>
 
@@ -35,7 +35,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 href="https://github.com"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Vertex Technologies GitHub"
+                aria-label="Aureon Technologies GitHub"
                 className="w-9 h-9 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-900 hover:border-indigo-500/50 hover:bg-slate-100 transition-all shadow-xs"
               >
                 <Github className="w-4 h-4" />
@@ -44,14 +44,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Vertex Technologies LinkedIn"
+                aria-label="Aureon Technologies LinkedIn"
                 className="w-9 h-9 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-900 hover:border-blue-500/50 hover:bg-slate-100 transition-all shadow-xs"
               >
                 <Linkedin className="w-4 h-4" />
               </a>
               <button
                 onClick={() => onNavigate('/contact')}
-                aria-label="Email Vertex Technologies"
+                aria-label="Email Aureon Technologies"
                 className="w-9 h-9 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-900 hover:border-purple-500/50 hover:bg-slate-100 transition-all shadow-xs"
               >
                 <Mail className="w-4 h-4" />
@@ -78,7 +78,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => onNavigate('/about')}
                   className="text-slate-600 hover:text-slate-900 transition-colors"
                 >
-                  About Vertex Technologies
+                  About Aureon Technologies
                 </button>
               </li>
               <li>
@@ -189,7 +189,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-mono">
-          <p>© 2026 Vertex Technologies. Built with code, creativity, and innovation.</p>
+          <p>© 2026 Aureon Technologies. Built with code, creativity, and innovation.</p>
           <div className="flex items-center gap-4">
             <span className="inline-flex items-center gap-1.5 text-slate-600">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />

@@ -78,7 +78,7 @@ export const FeaturedProjects: React.FC<FeaturedProjectsProps> = ({ onNavigate }
             <FolderKanban className="w-10 h-10 text-slate-400 mx-auto mb-3" />
             <h3 className="text-base font-bold text-slate-900">No projects in this category yet</h3>
             <p className="text-xs text-slate-600 mt-1 max-w-sm mx-auto">
-              Our team at Vertex Technologies is actively engineering new solutions. Check back soon or switch categories.
+              Our team at Aureon Technologies is actively engineering new solutions. Check back soon or switch categories.
             </p>
           </div>
         )}

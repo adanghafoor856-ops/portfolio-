@@ -6,7 +6,7 @@ export const projects: Project[] = [
     slug: 'project-01-decentralized-cloud-vault',
     title: 'Decentralized Cloud Architecture & Web Portal',
     shortDescription: 'A modern full-stack decentralized file management platform combining EVM smart contracts, high-throughput microservices, and a reactive dashboard.',
-    description: 'A cutting-edge collaborative engineering project engineered by our team at Vertex Technologies. Designed to provide enterprise-grade cryptographic file verification, multi-region API orchestration, and real-time frontend visualization.',
+    description: 'A cutting-edge collaborative engineering project engineered by our team at Aureon Technologies. Designed to provide enterprise-grade cryptographic file verification, multi-region API orchestration, and real-time frontend visualization.',
     category: 'Web Applications',
     status: 'Coming Soon / Add Project Details',
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80',
@@ -33,7 +33,7 @@ export const projects: Project[] = [
       }
     ],
     problem: 'Traditional centralized data storage systems suffer from single points of failure, vulnerable credentials, and opaque file validation logs.',
-    solution: 'Our team at Vertex Technologies engineered a hybrid architecture leveraging hardened server-side APIs for rapid indexing while delegating integrity proofs to immutable smart contracts with a seamless UI.',
+    solution: 'Our team at Aureon Technologies engineered a hybrid architecture leveraging hardened server-side APIs for rapid indexing while delegating integrity proofs to immutable smart contracts with a seamless UI.',
     features: [
       'Zero-Knowledge metadata encryption with instant browser verification',
       'Ultra-responsive Next.js frontend with dark mode & accessibility compliance',
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     slug: 'project-02-cross-platform-crypto-wallet',
     title: 'Cross-Platform Mobile FinTech & Wallet Gateway',
     shortDescription: 'High-performance mobile application engineered for secure asset tracking, real-time blockchain telemetry, and biometric transaction authorizations.',
-    description: 'An advanced mobile application built by our team at Vertex Technologies delivering frictionless cross-platform performance across iOS and Android, backed by hardened server architecture and smart contract integrations.',
+    description: 'An advanced mobile application built by our team at Aureon Technologies delivering frictionless cross-platform performance across iOS and Android, backed by hardened server architecture and smart contract integrations.',
     category: 'Mobile Applications',
     status: 'Coming Soon / Add Project Details',
     image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80',

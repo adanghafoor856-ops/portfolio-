@@ -38,7 +38,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
               className="w-20 h-20 rounded-2xl border border-dashed border-indigo-400/50 flex items-center justify-center p-2"
             >
               <div className="w-full h-full rounded-xl bg-gradient-to-br from-purple-600 to-indigo-600 flex items-center justify-center font-bold text-2xl text-white shadow-lg shadow-indigo-500/20">
-                V
+                A
               </div>
             </motion.div>
             <motion.div
@@ -56,7 +56,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
             className="text-center"
           >
             <h1 className="text-2xl sm:text-3xl font-extrabold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-indigo-700 to-cyan-700 font-mono">
-              VERTEX TECHNOLOGIES
+              AUREON TECHNOLOGIES
             </h1>
             <div className="flex items-center justify-center gap-2 mt-3 text-xs text-slate-500 font-mono">
               <Terminal className="w-3.5 h-3.5 text-indigo-600 animate-pulse" />

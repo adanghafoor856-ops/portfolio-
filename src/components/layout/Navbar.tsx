@@ -57,12 +57,12 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
             onClick={() => handleLinkClick('/')}
             className="flex items-center gap-2.5 sm:gap-3 group text-left cursor-pointer focus:outline-none min-w-0"
           >
-            {/* Minimal futuristic "V" icon */}
+            {/* Minimal futuristic "A" icon */}
             <div className="relative shrink-0 flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-purple-600 via-indigo-600 to-cyan-500 p-[1.5px] group-hover:shadow-[0_0_20px_rgba(99,102,241,0.3)] transition-all duration-300">
               <div className="w-full h-full bg-white rounded-[10px] flex items-center justify-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity" />
                 <span className="font-mono font-extrabold text-base sm:text-lg bg-clip-text text-transparent bg-gradient-to-br from-purple-700 via-indigo-600 to-cyan-600">
-                  V
+                  A
                 </span>
               </div>
             </div>
@@ -70,7 +70,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
             <div className="flex flex-col min-w-0">
               <div className="flex items-center gap-1.5 min-w-0">
                 <span className="font-extrabold tracking-tight sm:tracking-wider text-sm xs:text-base sm:text-lg text-slate-900 font-mono group-hover:text-indigo-600 transition-colors truncate">
-                  VERTEX TECHNOLOGIES
+                  AUREON TECHNOLOGIES
                 </span>
                 <span className="inline-block w-1.5 h-1.5 rounded-full bg-indigo-600 animate-pulse shrink-0" />
               </div>

@@ -316,7 +316,7 @@ export const ContactPage: React.FC<{ onNavigate: (path: string) => void }> = ({ 
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900">Inquiry Received</h3>
                 <p className="text-slate-600 text-sm max-w-md mx-auto leading-relaxed">
-                  Thank you for reaching out to Vertex Technologies. Adan Ghafoor, Muhammad Sameer Ali, or our specialized lead will review your requirements and respond within 24 hours.
+                  Thank you for reaching out to Aureon Technologies. Adan Ghafoor, Muhammad Sameer Ali, or our specialized lead will review your requirements and respond within 24 hours.
                 </p>
                 <div className="pt-4">
                   <Button
@@ -434,7 +434,7 @@ export const ContactPage: React.FC<{ onNavigate: (path: string) => void }> = ({ 
                     rows={5}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Describe your goals, tech preferences, target timeline, or how you want Vertex Technologies to collaborate..."
+                    placeholder="Describe your goals, tech preferences, target timeline, or how you want Aureon Technologies to collaborate..."
                     className={`w-full bg-slate-50 border rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none transition-all ${
                       errors.message
                         ? 'border-rose-500 focus:ring-2 focus:ring-rose-200'
@@ -464,7 +464,7 @@ export const ContactPage: React.FC<{ onNavigate: (path: string) => void }> = ({ 
                     )
                   }
                 >
-                  {isSubmitting ? 'Transmitting Request...' : 'Send Message to Vertex Technologies'}
+                  {isSubmitting ? 'Transmitting Request...' : 'Send Message to Aureon Technologies'}
                 </Button>
               </form>
             )}

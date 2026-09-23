@@ -52,7 +52,7 @@ export const About: React.FC = () => {
         <SectionHeading
           badge="ABOUT OUR TEAM"
           title="Behind the Code. Beyond the Ordinary."
-          subtitle="Our team at Vertex Technologies is a collaborative group of passionate software engineers with diverse technical expertise. We believe great software is built through strong collaboration, thoughtful problem-solving, and continuous learning."
+          subtitle="Our team at Aureon Technologies is a collaborative group of passionate software engineers with diverse technical expertise. We believe great software is built through strong collaboration, thoughtful problem-solving, and continuous learning."
         />
 
         {/* Animated Stat Cards Grid */}
@@ -113,7 +113,7 @@ export const About: React.FC = () => {
                 Engineered for Reliability, Built for Modern Demands
               </h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Rather than working in isolation, our team operates as a synchronized engineering unit. From initial system modeling to full-stack frontend integration and production deployments, each member anchors a critical dimension of modern software engineering at Vertex Technologies.
+                Rather than working in isolation, our team operates as a synchronized engineering unit. From initial system modeling to full-stack frontend integration and production deployments, each member anchors a critical dimension of modern software engineering at Aureon Technologies.
               </p>
             </div>
 

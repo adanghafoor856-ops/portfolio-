@@ -189,7 +189,7 @@ export const GitHubPage: React.FC<{ onNavigate: (path: string) => void }> = ({ o
             transition={{ delay: 0.2 }}
             className="mt-5 text-slate-600 text-base sm:text-lg leading-relaxed"
           >
-            Vertex Technologies engineers build transparent, maintainable, and type-safe open-source repositories. Explore individual team member codebases, featured templates, and technical experiments.
+            Aureon Technologies engineers build transparent, maintainable, and type-safe open-source repositories. Explore individual team member codebases, featured templates, and technical experiments.
           </motion.p>
         </div>
 
@@ -312,7 +312,7 @@ export const GitHubPage: React.FC<{ onNavigate: (path: string) => void }> = ({ o
                 {/* View Member Profile Footer */}
                 <div className="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
                   <span className="text-xs font-mono text-slate-400">
-                    Vertex Technologies Core Engineer
+                    Aureon Technologies Core Engineer
                   </span>
                   <button
                     onClick={() => onNavigate(`/team/${member.slug}`)}
@@ -333,7 +333,7 @@ export const GitHubPage: React.FC<{ onNavigate: (path: string) => void }> = ({ o
             Configurable Repository Sync
           </h3>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed max-w-xl mx-auto mb-6">
-            The Vertex Technologies portfolio is engineered to automatically fetch live public repository statistics, stars, and language breakdowns as soon as your active GitHub username is configured in the centralized data file.
+            The Aureon Technologies portfolio is engineered to automatically fetch live public repository statistics, stars, and language breakdowns as soon as your active GitHub username is configured in the centralized data file.
           </p>
           <Button
             variant="secondary"

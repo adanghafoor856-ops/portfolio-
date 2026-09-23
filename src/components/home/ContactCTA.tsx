@@ -36,7 +36,7 @@ export const ContactCTA: React.FC<ContactCTAProps> = ({ onNavigate }) => {
           </h2>
 
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-xl mx-auto mb-8">
-            Whether you are looking for a dedicated software engineering team, want to discuss an innovative startup product, or need specialized technical consultation, our team at Vertex Technologies is ready to connect.
+            Whether you are looking for a dedicated software engineering team, want to discuss an innovative startup product, or need specialized technical consultation, our team at Aureon Technologies is ready to connect.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

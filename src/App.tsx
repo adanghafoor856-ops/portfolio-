@@ -21,7 +21,7 @@ export default function App() {
 
   const [isLoading, setIsLoading] = useState<boolean>(() => {
     // Show splash animation on first load
-    return !sessionStorage.getItem('vertex_loaded');
+    return !sessionStorage.getItem('aureon_loaded');
   });
 
   // Handle browser back/forward buttons
@@ -34,7 +34,7 @@ export default function App() {
   }, []);
 
   const handleLoadingComplete = () => {
-    sessionStorage.setItem('vertex_loaded', 'true');
+    sessionStorage.setItem('aureon_loaded', 'true');
     setIsLoading(false);
   };
 

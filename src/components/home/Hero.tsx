@@ -56,7 +56,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-500 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-600"></span>
               </span>
-              <span className="font-extrabold tracking-wider truncate">VERTEX TECHNOLOGIES</span>
+              <span className="font-extrabold tracking-wider truncate">AUREON TECHNOLOGIES</span>
               <span className="text-indigo-300 hidden xs:inline">•</span>
               <span className="text-slate-700 font-medium hidden xs:inline">Software Engineering Collective</span>
             </motion.div>
@@ -105,7 +105,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-slate-700 text-sm sm:text-base lg:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-8 font-normal"
             >
-              Vertex Technologies is a specialized software engineering collective dedicated to crafting reliable, scalable, and modern digital applications. We unite full stack development, high-throughput backend APIs, fluid mobile interfaces, and secure smart contracts.
+              Aureon Technologies is a specialized software engineering collective dedicated to crafting reliable, scalable, and modern digital applications. We unite full stack development, high-throughput backend APIs, fluid mobile interfaces, and secure smart contracts.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -176,7 +176,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                     <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-rose-500 inline-block" />
                     <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-amber-500 inline-block" />
                     <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-emerald-500 inline-block" />
-                    <span className="ml-1 sm:ml-2 text-slate-300 font-bold text-[11px] sm:text-xs truncate">vertex_engine.ts</span>
+                    <span className="ml-1 sm:ml-2 text-slate-300 font-bold text-[11px] sm:text-xs truncate">aureon_engine.ts</span>
                   </div>
                   <span className="text-[10px] text-cyan-300 bg-cyan-950/80 px-2 py-0.5 rounded-full border border-cyan-700/50 font-bold tracking-wider shrink-0">
                     ● ACTIVE
@@ -186,7 +186,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 {/* Architecture code visualization */}
                 <div className="mt-3 sm:mt-4 font-mono text-[11px] sm:text-xs space-y-1.5 sm:space-y-2 text-slate-100 overflow-x-auto">
                   <div>
-                    <span className="text-purple-400 font-bold">interface</span> <span className="text-cyan-300 font-bold">VertexStack</span> {'{'}
+                    <span className="text-purple-400 font-bold">interface</span> <span className="text-cyan-300 font-bold">AureonStack</span> {'{'}
                   </div>
                   <div className="pl-3 sm:pl-4 text-slate-300">
                     frontend: <span className="text-emerald-300 font-semibold">'React'</span> | <span className="text-emerald-300 font-semibold">'Next.js'</span>;
@@ -214,7 +214,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                   </div>
                   <div className="flex items-center gap-1 sm:gap-1.5 text-[10px] sm:text-[11px] text-slate-300 font-semibold">
                     <Shield className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-cyan-400 shrink-0" />
-                    <span>Vertex Technologies</span>
+                    <span>Aureon Technologies</span>
                   </div>
                 </div>
               </div>

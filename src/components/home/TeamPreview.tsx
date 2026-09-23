@@ -20,7 +20,7 @@ export const TeamPreview: React.FC<TeamPreviewProps> = ({ onNavigate }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading
           badge="OUR ENGINEERING TEAM"
-          title="Meet Vertex Technologies"
+          title="Meet Aureon Technologies"
           subtitle="Four specialized software engineers on our team uniting full stack development, backend infrastructure, mobile engineering, and decentralized blockchain architecture."
         />
 
